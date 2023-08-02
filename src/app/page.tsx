@@ -1,13 +1,14 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-import styles from "./page.module.css";
+import styles from './page.module.css'
 
+// eslint-disable-next-line import/no-default-export
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          Get started by editing&nbsp;{' '}
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
@@ -16,7 +17,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
+            By{' '}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -92,5 +93,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  );
+  )
 }
