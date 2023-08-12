@@ -1,7 +1,1 @@
-import type { NextPage } from 'next'
-
-const Home: NextPage = () => {
-  return <h1>Home</h1>
-}
-
-export default Home
+export { EventsListPage as default } from '../features/events/pages/EventsListPage/index'
