@@ -1,1 +1,1 @@
-export { EventsListPage as default } from '../features/events/pages/EventsListPage/index'
+export { EventsListPage as default } from '~/features/events/pages/EventsListPage/index'
