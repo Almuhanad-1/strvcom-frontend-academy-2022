@@ -1,8 +1,7 @@
-import { Header } from '~/features/ui/components/Header'
+import { Layout } from '~/features/ui/components/Layout'
 
 export const CreateEventPage = () => (
-  <>
-    <Header />
+  <Layout>
     <h1>Welcome, Create Event</h1>
-  </>
+  </Layout>
 )
